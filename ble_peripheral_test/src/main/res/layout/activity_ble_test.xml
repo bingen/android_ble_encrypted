@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/timesListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonsContainer"
+        >
+    </ListView>
+    <LinearLayout 
+        android:id="@+id/buttonsContainer"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/debug_monitor_fragment"
+        style="?android:attr/buttonBarStyle"
+        android:orientation="horizontal"
+        >
+	    <Button
+	        android:id="@+id/clearButton"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/blue_clear"
+	        style="?android:attr/buttonBarButtonStyle"
+	        />
+	    
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/debug_monitor_fragment"
+        android:name="com.eguzkitza.bingen.ble.ui.DebugMonitorFragment"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+    </FrameLayout>
+    
+</RelativeLayout>

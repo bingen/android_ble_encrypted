@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" 
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/sessionJsonLabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/label_color"
+                />
+
+            <TextView
+                android:id="@+id/sessionJsonTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/label_color"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bluetoothContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/bluetoothParameters"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+            <Spinner
+                android:id="@+id/advertiseModeSpinner"
+                android:layout_width="0dp"
+                android:layout_weight="0.35"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+            <Spinner
+                android:id="@+id/advertisePowerSpinner"
+                android:layout_width="0dp"
+                android:layout_weight="0.35"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/processText"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="#99000077"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:textColor="@color/label_color"
+            />
+    </LinearLayout>
+
+</LinearLayout>

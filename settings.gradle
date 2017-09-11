@@ -1,0 +1,1 @@
+include ':app', ':bleservice', ':blelib', ':bleui', ':ble_peripheral_test', ':ble_central_test'

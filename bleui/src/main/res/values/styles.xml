@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="spinner_dropdown">
+	    <item name="android:textColor">@color/text_color_dark</item>
+	    <item name="android:background">@drawable/list_spinner_light</item>
+	</style>
+
+    <style name="form_container_style">
+        <item name="android:padding">@dimen/form_padding</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+
+</resources>

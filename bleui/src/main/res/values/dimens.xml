@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="form_padding">14dp</dimen>
+    <dimen name="form_font_size_medium">15sp</dimen>
+	<dimen name="form_font_size_large">18sp</dimen>
+    <dimen name="form_font_size_small">11sp</dimen>
+    <dimen name="form_vertical_spacing_small">6dp</dimen>
+    
+</resources>

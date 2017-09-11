@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">BLE_Central_Test</string>
+
+    <string name="blue_not_supported">BLE not supported</string>
+    <string name="blue_scan_failure">Scan Failure</string>
+    <string name="blue_scan_success">Scan Success</string>
+    <string name="blue_scanning">Scanning...</string>
+    <string name="blue_stop_scanning">Stopping Scan</string>
+    <string name="blue_send">Send</string>
+    <string name="blue_stop">Stop</string>
+    <string name="blue_restart">Restart</string>
+    <string name="blue_clear">Clear List</string>
+</resources>

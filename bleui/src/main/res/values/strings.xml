@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">BLE_UI</string>
+    <string name="scan_success">Scan Success!</string>
+    <string name="bad_scan">Scan Failure!</string>
+    <string name="already_scanned">Already Scanned</string>
+    <string name="decrypt_error">Wrong encryption</string>
+    <string name="authenticate_error">Authentication error</string>
+    <string name="unknown_error">Unknown error</string>
+
+
+</resources>
